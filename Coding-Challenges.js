@@ -244,3 +244,12 @@ function isIsogram(str){
   return new Set(str.toLowerCase()).size == str.length;
 }
 //
+//super duper easy//
+function problem(x){
+  if (typeof x === 'string') {
+    return 'Error'
+  } else {
+    return (x * 50) + 6
+  }
+}
+//
