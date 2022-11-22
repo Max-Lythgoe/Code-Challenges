@@ -254,6 +254,7 @@ function problem(x){
 }
 //
 //Remove anchor from URL //
+/* I solved it like this*/
 function removeUrlAnchor(url){
   let List = []
   
@@ -264,5 +265,9 @@ function removeUrlAnchor(url){
       List += url[i]
     }
   } return List
+}
+/*alternativley could have done this...*/
+function removeUrlAnchor(url){
+  return url.split('#')[0];
 }
 //
