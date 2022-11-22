@@ -253,3 +253,16 @@ function problem(x){
   }
 }
 //
+//Remove anchor from URL //
+function removeUrlAnchor(url){
+  let List = []
+  
+  for (let i = 0; i < url.length; i++) {
+    if (url[i] === '#') {
+      return List
+    } else {
+      List += url[i]
+    }
+  } return List
+}
+//
