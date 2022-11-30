@@ -271,3 +271,16 @@ function removeUrlAnchor(url){
   return url.split('#')[0];
 }
 //
+
+//Find the Capitals//
+var capitals = function (word) {
+  let digits = []
+  
+  for (let i = 0; i < word.length; i++) {
+    if (word[i] === word[i].toUpperCase()) {
+      digits.push(word.indexOf(word[i]))
+    }
+  }
+  return digits
+};
+//
