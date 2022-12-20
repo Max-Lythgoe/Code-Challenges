@@ -293,3 +293,9 @@ function nbYear(p0, percent, aug, p) {
   return count
 }
 //
+
+//find the middle element//
+function gimme (triplet) {
+  return triplet.indexOf([...triplet].sort((a,b) => a-b)[1])
+}
+//
